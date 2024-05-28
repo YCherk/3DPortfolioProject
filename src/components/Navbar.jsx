@@ -10,13 +10,13 @@ const Navbar = () => {
             </p>
         </NavLink>
         <nav className= "flex text-lg gap-10  font-medium">
-            <NavLink to="/about" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-white' }>
+            <NavLink to="/about" className={({ isActive }) => isActive ? 'text-zinc-700' : 'text-white' }>
                 ABOUT
             </NavLink>
-            <NavLink to="/projects" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-white' }>
+            <NavLink to="/projects" className={({ isActive }) => isActive ? 'text-zinc-700' : 'text-white' }>
                 PROJECTS
             </NavLink>
-            <NavLink to="/contact" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-white' }>
+            <NavLink to="/contact" className={({ isActive }) => isActive ? 'text-zinc-700' : 'text-white' }>
                 CONTACT
             </NavLink>
         </nav>

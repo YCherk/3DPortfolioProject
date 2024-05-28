@@ -1,9 +1,15 @@
-import React from 'react'
+import { useState } from 'react'
+import Spline from '@splinetool/react-spline';
+import Navbar from '../components/Navbar';
 
-const about = () => {
+export default function Example() {
+
   return (
-    <div>About</div>
+    <div>
+      <Spline className="absolute inset-0 z-0" scene="https://prod.spline.design/7pGJkMvL8cAxarNq/scene.splinecode" />
+      <header className="absolute inset-x-0 top-0 z-50">
+        <Navbar />
+      </header>
+    </div>
   )
 }
-
-export default about
